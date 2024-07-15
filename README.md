@@ -3,61 +3,31 @@
 
 #  Quizzler
 
-## Our Goal
+## OverView
 
-The goal of this tutorial is to take you one step further in your journey of becoming an app developer. We are going to introduce you to the holy grail of mobile design patterns: the Model View Controller (MVC) pattern. A design pattern is simply a repeatable and optimised solution to a common software problem and you’ll learn more about this when use in the tutorial.
+Quizzler is a trivia quiz app designed to enhance your knowledge across various fields with a series of multiple-choice questions. This project showcases the implementation of the Model-View-Controller (MVC) design pattern, which is a widely recognized pattern in mobile app development.
 
-## What you will create
+## Features
 
-You will program a trivia quiz app. If you have another field of expertise such as law or medicine, you’ll be glad to know that multiple choice question apps are one of the most popular types of educational apps on the App Store! 
+- Interactive multiple-choice trivia questions.
+- Dynamic update of UI elements like labels and buttons.
+- Implementation of MVC design pattern.
+- Data management using Swift Structures and Classes.
+- Simple and clean user interface.
 
-## What you will learn
+## Screenshots
 
-* How to programmatically change UI elements such as Labels and Buttons.
-* What is a design pattern and how is it used in programming.
-* How to use the Model-View-Controller or MVC pattern for app development.
-* Learn about Swift Structures how to instantiate a struct instance.
-* Understand the difference between value types and reference types. 
-* Learn about Swift Classes and creating Objects.
-* Compare Swift Classes with Swift Structs and know when to use which.
-* Learn about Object Oriented Programming.
-* How to refactor code and stay organised.
+<img src="https://github.com/user-attachments/assets/8fc5fd18-dea6-450b-b776-77ab7f0f0cbb" width="300">
+<img src="https://github.com/user-attachments/assets/0eb156f2-f070-4aa8-9015-d0507ba54fa6" width="300">
+<img src="https://github.com/user-attachments/assets/e118987b-9f2e-4134-9bd9-f162d8d5e6e3" width="300">
 
+## Learning Objectives
 
+Throughout the development of Quizzler, I have achieved the following learning objectives:
 
-## Default Quiz
-
-```
-  Question(q: "A slug's blood is green.", a: "True"),
-        Question(q: "Approximately one quarter of human bones are in the feet.", a: "True"),
-        Question(q: "The total surface area of two human lungs is approximately 70 square metres.", a: "True"),
-        Question(q: "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", a: "True"),
-        Question(q: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", a: "False"),
-        Question(q: "It is illegal to pee in the Ocean in Portugal.", a: "True"),
-        Question(q: "You can lead a cow down stairs but not up stairs.", a: "False"),
-        Question(q: "Google was originally called 'Backrub'.", a: "True"),
-        Question(q: "Buzz Aldrin's mother's maiden name was 'Moon'.", a: "True"),
-        Question(q: "The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.", a: "False"),
-        Question(q: "No piece of square dry paper can be folded in half more than 7 times.", a: "False"),
-        Question(q: "Chocolate affects a dog's heart and nervous system; a few ounces are enough to kill a small dog.", a: "True")
-```
-
-## Multiple Choice Quiz
-
-```
- Question(q: "Which is the largest organ in the human body?", a: ["Heart", "Skin", "Large Intestine"], correctAnswer: "Skin"),
-        Question(q: "Five dollars is worth how many nickels?", a: ["25", "50", "100"], correctAnswer: "100"),
-        Question(q: "What do the letters in the GMT time zone stand for?", a: ["Global Meridian Time", "Greenwich Mean Time", "General Median Time"], correctAnswer: "Greenwich Mean Time"),
-        Question(q: "What is the French word for 'hat'?", a: ["Chapeau", "Écharpe", "Bonnet"], correctAnswer: "Chapeau"),
-        Question(q: "In past times, what would a gentleman keep in his fob pocket?", a: ["Notebook", "Handkerchief", "Watch"], correctAnswer: "Watch"),
-        Question(q: "How would one say goodbye in Spanish?", a: ["Au Revoir", "Adiós", "Salir"], correctAnswer: "Adiós"),
-        Question(q: "Which of these colours is NOT featured in the logo for Google?", a: ["Green", "Orange", "Blue"], correctAnswer: "Orange"),
-        Question(q: "What alcoholic drink is made from molasses?", a: ["Rum", "Whisky", "Gin"], correctAnswer: "Rum"),
-        Question(q: "What type of animal was Harambe?", a: ["Panda", "Gorilla", "Crocodile"], correctAnswer: "Gorilla"),
-        Question(q: "Where is Tasmania located?", a: ["Indonesia", "Australia", "Scotland"], correctAnswer: "Australia")
-```        
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+- Programmatic UI Changes: Learned how to dynamically update labels and buttons in the user interface.
+- Design Patterns: Gained a deep understanding of the Model-View-Controller (MVC) pattern and its application in iOS development.
+- Swift Structures: Learned how to define and instantiate Swift structs, and understood their role as value types.
+- Swift Classes: Created Swift classes to manage object-oriented programming concepts and understood their role as reference types.
+- OOP Principles: Applied object-oriented programming principles to enhance code organization and reusability.
+- Refactoring: Improved code readability and maintainability by applying refactoring techniques.
